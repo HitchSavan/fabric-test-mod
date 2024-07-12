@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "test-mod",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "Test Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,25 +12,28 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/test-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.hitchsavan.testmod.TestMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.hitchsavan.testmod.TestModClient"
+		],
+		"fabric-datagen": [
+			"com.hitchsavan.testmod.TestModDataGenerator"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"test-mod.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "test-mod.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.15.10",
+		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.6",
 		"java": ">=21",
 		"fabric-api": "*"
