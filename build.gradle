@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"test-mod" {
+		"hitchsavan-beeers" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

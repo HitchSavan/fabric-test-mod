@@ -1,4 +1,4 @@
-package com.hitchsavan.testmod.mixin;
+package com.hitchsavan.beeers.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.hitchsavan.testmod.mixin",
+	"package": "com.hitchsavan.beeers.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

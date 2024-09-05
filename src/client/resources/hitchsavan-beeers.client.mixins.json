@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.hitchsavan.testmod.mixin.client",
+	"package": "com.hitchsavan.beeers.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

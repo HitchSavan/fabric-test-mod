@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "test-mod",
+	"id": "hitchsavan-beeers",
 	"version": "${version}",
-	"name": "Test Mod",
+	"name": "Beeers Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,23 +12,23 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/test-mod/icon.png",
+	"icon": "assets/hitchsavan-beeers/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.hitchsavan.testmod.TestMod"
+			"com.hitchsavan.beeers.BeeersMod"
 		],
 		"client": [
-			"com.hitchsavan.testmod.TestModClient"
+			"com.hitchsavan.beeers.BeeersModClient"
 		],
 		"fabric-datagen": [
-			"com.hitchsavan.testmod.TestModDataGenerator"
+			"com.hitchsavan.beeers.BeeersModDataGenerator"
 		]
 	},
 	"mixins": [
-		"test-mod.mixins.json",
+		"hitchsavan-beeers.mixins.json",
 		{
-			"config": "test-mod.client.mixins.json",
+			"config": "hitchsavan-beeers.client.mixins.json",
 			"environment": "client"
 		}
 	],
